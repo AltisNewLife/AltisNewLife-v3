@@ -1,0 +1,12 @@
+private["_test"];
+if(vest player != "V_HarnessOGL_brn") exitWith {};
+player say3D "bombarm";
+[[0,format["%1 a actionné sa veste explosive !!! EXPLOSION DANS 3 SEC !!!",profileName]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+sleep 2;
+[[0,format["%1 crie Allahu Akbar !!!",name player]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+sleep 1;
+removeVest player;
+_test = "Bo_Mk82" createVehicle [0,0,9999];
+_test setPos (getPos player);
+_test setVelocity [100,0,0];
+if(alive player) then {player setDamage 1;};

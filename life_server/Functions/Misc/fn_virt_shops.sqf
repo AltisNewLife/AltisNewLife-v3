@@ -1,0 +1,30 @@
+private["_shop"];
+_shop = _this select 0;
+switch (_shop) do
+{
+	case "market": {["Marché",["tbacon","rabbit","water","redgull","apple","peach","grapes","cornmeal","cigarette","bottles","pickaxe","battery","cb","fuelF","lockpick","boltcutter","scalpel","storagesmall","storagebig","excavator","underwatercharge","kit","poudre","tissu","electro"]]};
+	case "marketReb": {["Marché Rebel",["redburger","tbacon","rabbit","water","sprite","pepsi","redgull","cafe","donuts","cigarette","cornmeal","bottles","battery","cb","fuelF","zipties","cle","lockpick","boltcutter","scalpel","blastingcharge","speedbomb","excavator","underwatercharge","gpstracker","kit","poudre","tissu","electro"]]};
+	case "gang": {["Marché de Gang", ["water","rabbit","apple","redgull","tbacon","lockpick","pickaxe","fuelF","peach","blastingcharge","boltcutter"]]};
+	case "hospital": {["Hopital",["redburger","tbacon","rabbit","water","sprite","pepsi","redgull","cafe","donuts","camisole","cle","marijuanam","battery","cb","cone","barre","lightr","lightg","lighty","flecheg","fleched"]]};
+    case "speakeasy": {["Vendeur Alcool",["bottledwhiskey","bottledshine","bottledbeer","moonshine","wine"]]};
+	case "wongs": {["Vendeur de tortue",["turtlesoup","turtle"]]};
+	case "heroin": {["Vendeur de drogues",["cocainep","heroinp","marijuana","meth97"]]};
+	case "oil": {["Vendeur de petrole",["oilp","pickaxe","fuelF"]]};
+	case "fishmarket": {["Poissonnerie",["salema","ornate","mackerel","mullet","tuna","catshark"]]};
+	case "glass": {["Vendeur de verre",["glass"]]};
+	case "iron": {["Vendeur de fer",["iron_r","copper_r"]]};
+	case "diamond": {["Objet Precieux",["diamond","diamondc","diamondf","ruby","pearl","doubloon","silverpiece","platinep","pickaxe"]]};
+	case "salt": {["Vendeur de sel",["salt_r"]]};
+	case "cop": {["Magasin de police",["redburger","tbacon","rabbit","redgull","sprite","pepsi","water","donuts","coffee","apple","peach","grapes","cb","zipties","cle","cigarette","fuelF","defusekit","battery","multipass","spikeStrip","mur","sac","cone","barre","lightr","lightg","lighty","flecheg","fleched","nitro","gpstracker"]]};
+	case "cement": {["Vendeur de ciment",["cement"]]};
+	case "skullp": {["Antiquaire",["skull","skullp"]]};
+    case "dep": {["Depanneur",["water","cafe","redburger","sprite","redgull","lockpick","fuelF","battery","nitro","gpstracker"]]};
+    case "redburger": {["Quick",["redburger","frite","smoothies","donuts","sprite","pepsi","water","cafe"]]};
+    case "bar": {["Nicolas",["bottledbeer","bottledwhiskey","wine","cigarette"]]};
+	case "organ": {["Traficant d'organe",["kidney","scalpel"]]};
+    case "or": {["Vendeur d'or",["goldbar","lingotor","goldbarp"]]};
+	case "uranium": {["Marchand Uranium",["uranium","puranium"]]};
+	case "marketdonateur": {["Marché Donateur",["water","cafe","redburger","sprite","redgull","battery","cb","excavator","nitro","gpstracker","pickaxe","poudre","tissu","electro"]]};
+	case "marketmerc": {["Marché Mercenaire",["water","cafe","redburger","sprite","redgull","cigarette","battery","cb","fuelF","zipties","cle","nitro","gpstracker","kit","poudre","tissu","electro"]]};
+	case "marketusine": {["Marché Entreprise",["water","cafe","redburger","sprite","redgull","cigarette","battery","cb","fuelF","nitro","puranium","kit","poudre","tissu","electro","cone","barre","lightr","lightg","lighty","flecheg","fleched"]]};
+};
